@@ -1,5 +1,9 @@
 # RIVER REUNION
 
+Visual revision, November 6, 2026: bevelled character parts, vest buckles, layered hats, eye blinks, bent-knee seated poses, timber grain, log end rings, wrapped bindings and cushioned benches. The three valleys now include sloping banks, curved trails, flower clusters, a ranger hut, framed canvas tents, picnic furniture, a campfire and lantern posts. Animated water shading and shoreline foam use a lightweight GPU material; foliage sways gently. Mobile-sized viewports use a soft raft contact shadow instead of a live shadow map. Static props, articulated character parts and water effects use instancing with per-instance colours.
+
+The current maintained release is the independent `zehao7911-eng/river-reunion` repository. The earlier monorepo copy is historical. The save key, profile schema, gameplay and GameWave adapter retain their established behaviour.
+
 A small, complete 3D river adventure about making room for one more friend. Six courses cross Alder Valley, Copper Canyon and Bluebird Reach. Steer a timber raft, collect waving campers, avoid rocks and bring enough friends to the final campsite. Original articulated block characters, procedural river environments and sound; no generated images or external asset requests.
 
 ## Play
