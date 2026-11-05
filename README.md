@@ -1,5 +1,7 @@
 # RIVER REUNION
 
+Wake correction: the raft now leaves thin, translucent ribbons in world space. Trails follow the water surface, widen gently, fade within 1.45 seconds and stop spawning while airborne or collecting a friend. Launch, landing and bump effects use expanding water-surface rings instead of solid water-coloured cubes.
+
 Visual revision, November 6, 2026: bevelled character parts, vest buckles, layered hats, eye blinks, bent-knee seated poses, timber grain, log end rings, wrapped bindings and cushioned benches. The three valleys now include sloping banks, curved trails, flower clusters, a ranger hut, framed canvas tents, picnic furniture, a campfire and lantern posts. Animated water shading and shoreline foam use a lightweight GPU material; foliage sways gently. Mobile-sized viewports use a soft raft contact shadow instead of a live shadow map. Static props, articulated character parts and water effects use instancing with per-instance colours.
 
 The current maintained release is the independent `zehao7911-eng/river-reunion` repository. The earlier monorepo copy is historical. The save key, profile schema, gameplay and GameWave adapter retain their established behaviour.
