@@ -1,5 +1,7 @@
 # RIVER REUNION
 
+Background music: “Monkeys Spinning Monkeys” by Kevin MacLeod. The existing sound button controls the soundtrack and effects. Full attribution and recording changes are listed in MUSIC-CREDITS.md.
+
 Wake correction: the raft now leaves thin, translucent ribbons in world space. Trails follow the water surface, widen gently, fade within 1.45 seconds and stop spawning while airborne or collecting a friend. Launch, landing and bump effects use expanding water-surface rings instead of solid water-coloured cubes.
 
 Visual revision, November 6, 2026: bevelled character parts, vest buckles, layered hats, eye blinks, bent-knee seated poses, timber grain, log end rings, wrapped bindings and cushioned benches. The three valleys now include sloping banks, curved trails, flower clusters, a ranger hut, framed canvas tents, picnic furniture, a campfire and lantern posts. Animated water shading and shoreline foam use a lightweight GPU material; foliage sways gently. Mobile-sized viewports use a soft raft contact shadow instead of a live shadow map. Static props, articulated character parts and water effects use instancing with per-instance colours.
@@ -26,7 +28,7 @@ Only `river-reunion-v1` is read/written in localStorage. Payload `{game:'river-r
 
 ## GameWave
 
-Official SDK document rechecked **2026-11-06** (page shows October 30): https://rg975ojk5z.feishu.cn/wiki/MQg7wMknzieOkukxyWVc4UB0nDh
+Official SDK document rechecked **2026-11-10** (page shows October 30): https://rg975ojk5z.feishu.cn/wiki/MQg7wMknzieOkukxyWVc4UB0nDh
 
 `RiverHost` is wired into accepted steering/hop/slow actions, actual win/loss/abandon transitions, and this game's snapshot. Rendering and startup never await the host. Partial/late SDK objects, rejected operations, registration timeouts and unsubscribe races are guarded. Like and direct-comment listeners register independently. Only `event.status === true` grants the optional golden paddle; direct `event.content` strings including empty image-only comments grant optional weekend pennants. Counts are not event identifiers. Durable claim flags prevent repeated rewards within this game's save scope; local-only flags belong to this browser. Unsupported prompts stay hidden. No assumed API opens social UI.
 
