@@ -1,6 +1,6 @@
 # RIVER REUNION
 
-Background music: “Monkeys Spinning Monkeys” by Kevin MacLeod. The existing sound button controls the soundtrack and effects. Full attribution and recording changes are listed in MUSIC-CREDITS.md.
+The existing sound button controls the music and sound effects. See MUSIC-CREDITS.md for recording details.
 
 Wake correction: the raft now leaves thin, translucent ribbons in world space. Trails follow the water surface, widen gently, fade within 1.45 seconds and stop spawning while airborne or collecting a friend. Launch, landing and bump effects use expanding water-surface rings instead of solid water-coloured cubes.
 

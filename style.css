@@ -3,4 +3,3 @@
 @media(max-height:540px) and (min-width:600px){#header{top:12px}.trip{padding:6px 18px;min-width:220px}.trip>div:not(.progress){margin:2px}.trip b{font-size:20px}.trip small{font-size:8px}#status{top:101px}#hint{top:143px}#controls{left:auto;right:20px;transform:none;bottom:40px;gap:10px}#steer{width:240px}.tool button{height:73px;width:64px}#welcome{padding:35px}.welcome-inner{transform:none}h1{font-size:60px;letter-spacing:-3px;margin:14px 0}.welcome-tip{margin-top:20px}#welcome p{margin:15px 0}.edition{bottom:50px}#toast{bottom:145px}#footer{bottom:8px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
-.music-credit{font-size:.76rem!important}.music-credit a{color:inherit;text-decoration:underline;text-underline-offset:2px}
